@@ -1,0 +1,74 @@
+.BestaAcademyLogoContainer {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+}
+.sliderBoxContainer{
+    /* background-color: white; */
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%); */
+}
+.BestaAcademyLogoContainer:focus {
+    border: none;
+    outline: none;
+}
+
+.BestaAcademyLogo {
+    width: 92px;
+    height: 78px;
+    border-radius: 4px;
+}
+
+.BestaAcademyLogo:hover {
+    background-color: #eaeaea;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+}
+
+.BestAcademyText {
+    text-align: center !important;
+    margin-top: 20px !important;
+}
+
+.ArrowPrev {
+    background-image: url('../../../assets//images/iconfinal.svg');
+    background-position: -277px -212px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    /* bottom: 15px; */
+    cursor: pointer;
+}
+
+.ArrowNext {
+    background-image: url('../../../assets//images/iconfinal.svg');
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+    /* bottom: 15px; */
+    background-position: -299px -212px;
+}
+/* .slick-dots li button:before{
+    display: ;
+    font-family: 'slick';
+    font-size: 10px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: #000000 !important;
+
+}
+.slick-dots li.slick-active button:before{
+    font-size: 10px !important;
+    opacity:1;
+    color: #c59428 !important;
+
+} */

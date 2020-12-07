@@ -1,0 +1,47 @@
+.OfferContainer {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 330px;
+    position: relative;
+    bottom: 4px;
+}
+
+.OfferContainer:focus {
+    border: none;
+    outline: none;
+}
+
+.linearUnderOffer {
+    display: inline-block;
+    width: 0;
+    height: 2px;
+    margin-right: auto;
+    margin-left: 20px;
+    background: linear-gradient(to right, #fff 0%, #c59428 100%);
+    position: relative;
+    bottom: 26px;
+    right: 0px;
+    /* animation: LinearGradient 4100ms infinite; */
+}
+
+@keyframes LinearGradienton {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+
+    }
+}
+@keyframes LinearGradientoff {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 0%;
+
+    }
+}

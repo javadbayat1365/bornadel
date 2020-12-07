@@ -1,0 +1,83 @@
+.CirleContainer {
+    display: flex;
+    width: 700px;
+    height: 80px;
+    position: relative;
+    background-color: #f5f5f5;
+    margin: auto;
+}
+.InsideCirleContainer {
+    display: flex;
+    width: 592px;
+    height: 80px;
+    position: relative;
+    background-color: #f5f5f5;
+    margin: auto;
+}
+
+.CircleRight {
+    width: 80px;
+    height: 80px;
+    margin-left: 90px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 3px #efefef;
+}
+
+.CircleLeft {
+    width: 80px;
+    height: 80px;
+    margin-left: 90px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.beatwenCircles {
+    background-color: #fff;
+    width: 105px;
+    height: 80px;
+    position: absolute;
+
+}
+
+.beatweenCirclesClipPathTop {
+    width: 118px;
+    height: 74px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 43px;
+    right: -6px;
+    background-color: #f5f5f5;
+    clip-path: Polygon(0% 50%, 100% 50%, 100% 100%, 0 100%);
+}
+
+.beatweenCirclesClipPathBottom {
+    width: 118px;
+    height: 74px;
+    border-radius: 50%;
+    position: absolute;
+    top: 43px;
+    right: -6px;
+    background-color: #f5f5f5;
+    clip-path: Polygon(0% 0%, 0px 50%, 100% 50%, 100% 0%);
+    box-shadow: inset 3px 5px #efefef;
+}
+
+.InsideCircle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #c59428;
+    font-family: Swiss721BT;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: condensed;
+    color: #333539        
+}

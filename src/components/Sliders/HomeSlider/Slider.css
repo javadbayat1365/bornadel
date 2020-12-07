@@ -1,0 +1,219 @@
+.sliderContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.sliderShow1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    background-color: #B2EBF2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 0;
+}
+
+.sliderShow2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    background-color: #F8BBD0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* left: 0; */
+}
+
+.sliderShow3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    background-color: #4FC3F7;
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 0;
+}
+
+.sliderShow4 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    background-color: #fc7147;
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 0;
+}
+
+.rightContainer {
+    height: 100%;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+
+}
+
+.rightContainer div {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-image: url('../../../assets//images/iconfinal.svg');
+    cursor: pointer;
+    transition: all 0.3s;
+    background-position: 207px -256px;
+    background-size: 2300px;
+}
+
+.rightContainer div:hover {
+    transform: translateX(5px);
+}
+
+.leftContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 20px;
+    cursor: pointer;
+}
+
+.leftContainer div {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-image: url('../../../assets//images/iconfinal.svg');
+    cursor: pointer;
+    background-position: 159px -256px;
+    background-size: 2300px;
+}
+
+.leftContainer div:hover {
+    transform: translateX(-5px);
+
+}
+
+.rightButton {
+    position: absolute;
+}
+
+.leftButton {
+    position: absolute;
+}
+
+.dotsGroup {
+    width: 100%;
+    position: absolute;
+    bottom: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dotsContainer {
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+    transition: all 0.3s;
+    z-index: 1;
+}
+
+.active {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #c59428;
+    z-index: 1;
+}
+
+/* =====================================fade=================================================== */
+@keyframes fadeHidden {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeShow {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* =====================================slide=================================================== */
+@keyframes slideShow {
+    0% {
+        width: 0%;
+
+    }
+
+    100% {
+        width: 100%;
+
+    }
+}
+
+@keyframes slideHidden {
+    0% {
+        right: 0;
+        width: 100%;
+
+    }
+
+    100% {
+        right: 0;
+        width: 0%;
+
+    }
+}
+
+/* =====================================MoveArrrow=================================================== */
+@keyframes MoveRightArrow {
+    0% {
+        position: relative;
+        left: 0;
+    }
+
+    100% {
+        position: relative;
+        left: 5px;
+    }
+}
+
+@keyframes MoveLeftArrow {
+    0% {
+        position: relative;
+        right: 0;
+    }
+
+    100% {
+        position: relative;
+        right: 5;
+    }
+}

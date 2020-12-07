@@ -1,0 +1,43 @@
+.BestaAcademyLogoContainer2 {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 330px;
+    direction: ltr;
+}
+
+.BestaAcademyLogoContainer2:focus {
+    border: none;
+    outline: none;
+}
+
+.BestaAcademyLogo {
+    width: 92px;
+    height: 78px;
+    border-radius: 4px;
+    background-color: #f00;
+}
+
+.BestaAcademyLogo:hover {
+    background-color: #eaeaea;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.ArrowPrev2 {
+    background-image: url('../../../assets//images/iconfinal.svg');
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-position:-277px -212px;
+    position: absolute;
+
+}
+
+.ArrowNext2 {
+    background-image: url('../../../assets//images/iconfinal.svg');
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-position: -299px -212px;
+    position: absolute;
+}
